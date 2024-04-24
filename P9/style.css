@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: static;
+    bottom: 0;
+    width: 100%;
+}
+
+img {
+    max-width: 20%;
+    height: auto;
+    border-radius: 50%;
+}
+
+h1 {
+    color: #fff;
+}
+h2, h3 {
+    color: #333;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+}
+
+    ul li {
+        margin-bottom: 5px;
+    }
+
+.experience-item, .education-item {
+    margin-bottom: 15px;
+}
+
+.part {
+    max-width: 800px;
+    background-color: #333;
+    padding: 20px;
+    text-align:center;
+}
+.roman{
+    list-style-type:upper-roman;
+}
+td{
+    text-align:center;
+    vertical-align:top;
+}
+.colored{
+    background-color:antiquewhite;
+}

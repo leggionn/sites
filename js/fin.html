@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fin.css">
+    <title>Aplicatie meteo</title>
+</head>
+<body>
+    <div class="page-container">
+        <div class="sidebar">
+            <form id="cityForm" class="city-form">
+                <label for="city">Introuceti orasul</label>
+                <input id="city" type="text" placeholder="Chisinau, Stefan-Voda" required />
+                <button class="btn btn-search">Cauta</button>
+            </form>
+            <div class="separator">
+                <span class="separator-text">sau</span>
+            </div>
+            <button id="locationBtn" class="btn btn-location">Foloseste locatia curenta</button>
+        </div>
+
+        <div class="page-content">
+            <div>
+                <h2>Vremea in Bucuresti astazi</h2>
+                <div class="weather-panel today">
+                    <div class="weather-details">
+                        <p class="date">2024-02-29, 16:00</p>
+                        <p>Temperatura: 10.7&deg;C</p>
+                        <p>Vant: 9.8 km/h</p>
+                        <p>Umiditate: 63%</p>
+                    </div>
+
+                </div>
+            </div>
+            <div>
+                <h2>Vremea in Bucuresti in urmatoarele zile</h2>
+                <div class="weather-items">
+                    <div class="weather-panel forecast">
+                        <div class="weather-details">
+                            <p class="date">2024-02-29, 16:00</p>
+                            <p>Temperatura: 10.7&deg;C</p>
+                            <p>Vant: 9.8 km/h</p>
+                            <p>Umiditate: 63%</p>
+                        </div>
+                    </div>
+                    <div class="weather-panel forecast">
+                        <div class="weather-details">
+                            <p class="date">2024-02-29, 16:00</p>
+                            <p>Temperatura: 10.7&deg;C</p>
+                            <p>Vant: 9.8 km/h</p>
+                            <p>Umiditate: 63%</p>
+                        </div>
+                    </div>
+                    <div class="weather-panel forecast">
+                        <div class="weather-details">
+                            <p class="date">2024-02-29, 16:00</p>
+                            <p>Temperatura: 10.7&deg;C</p>
+                            <p>Vant: 9.8 km/h</p>
+                            <p>Umiditate: 63%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <script src="fin.js"></script>
+</body>
+</html>

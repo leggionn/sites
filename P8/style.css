@@ -1,0 +1,75 @@
+﻿body {
+    font-family: 'NumeleFontului', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width:100%;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #fff;
+        margin: 0 15px;
+    }
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: static;
+    bottom: 0;
+    width: 100%;
+}
+.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-self: center;
+    max-width:100%;
+}
+.project{
+    border: double;
+    width:45%;
+    height:auto;
+}
+.pr-desc{
+    max-width:45%;
+}
+.projects-row{
+    display: flex;
+
+}
+.next-tem {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0px;
+    width: 100%;
+}
+.line{
+    background-color:#333;
+}
